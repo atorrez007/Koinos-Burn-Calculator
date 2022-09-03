@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap");
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koinos Burn Calculator (KBC)</title>
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="text-wrapper">
+        <div>
+          <h1 class="title">Koinos Burn Calculator</h1>
+          <h3 class="title-contd">Calculate your <span>burn</span> returns</h3>
+        </div>
+        <img
+          src="https://avatars.githubusercontent.com/u/63060367?s=280&v=4"
+          height="90px"
+          width="90px"
+        />
+      </div>
+      <div class="details-layout">
+        <div class="information">
+          <p>How much Koin do you have?</p>
+          <input id="totalKoin" type="text" placeholder="KOIN" />
+        </div>
+        <div class="information">
+          <p>What is the annual rate?</p>
+          <input class="annualRate" type="text" placeholder="%" />
+        </div>
+        <div class="information">
+          <p>What is the price of Koin?</p>
+          <input class="priceRate" type="text" placeholder="$" />
+        </div>
+      </div>
+      <div class="output-layout">
+        <div class="output">
+          <div class="results">
+            <p class="outputfromJS"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
