@@ -1,2 +1,5 @@
 # Koinos-Burn-Calculator
-Calculate your Koin returns with Proof-of-Burn (PoB)
+
+Koinos utilizes a new mechanism for conensus on the network called Proof-of-Burn (PoB). You simply burn your Koin in exchange for Virtual Hash Power (VHP). <br><br> This VHP is a token that represents how much Koin you have burned and is redeemable up to the amount you originally burned. <br><br>The Koinos network creates new Koin tokens to reward those miners who are securing the network with PoB. This is known as the inflation. The mainnet is scheduled to reward miners with 4% inflation for the year. <br><br>This inflation rate can change based on the amount of tokens burned to secure the network. The less total Koin on the network being burned, the higher the inflation rate. Therefore, the more Koin will be given out to miners. (Less pirates, more treasure for us.) <br><br>
+
+Use this Burn Calculator as a way to show the amount of returns you would receive if you were to burn your Koin. You can change the parameters to anticipate the prices and returns for the future. 
